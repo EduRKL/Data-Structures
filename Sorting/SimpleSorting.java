@@ -1,8 +1,4 @@
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-import java.util.stream.Collectors;
-
+//O(n^2)
 class Solution {
     public static List<Integer> sortList(List<Integer> unsortedList) {
         for (int i = 0; i < unsortedList.size(); i++) {
